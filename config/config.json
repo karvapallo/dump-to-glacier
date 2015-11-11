@@ -1,0 +1,42 @@
+{
+    "mysql": {
+        "development": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "root",
+            "database": "database"
+        },
+        "staging": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "root",
+            "database": "database"
+        },
+        "production": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "root",
+            "database": "database"
+        }
+    },
+    "aws": {
+        "development": {
+            "accessKeyId": "XXXXXXXXXXXXXXXX",
+            "secretAccessKey": "XXXXXXXXXXXXXXXX",
+            "vaultName": "vault-name",
+            "region": "us-west-2"
+        },
+        "staging": {
+            "accessKeyId": "XXXXXXXXXXXXXXXX",
+            "secretAccessKey": "XXXXXXXXXXXXXXXX",
+            "vaultName": "vault-name",
+            "region": "us-west-2"
+        },
+        "production": {
+            "accessKeyId": "XXXXXXXXXXXXXXXX",
+            "secretAccessKey": "XXXXXXXXXXXXXXXX",
+            "vaultName": "vault-name",
+            "region": "us-west-2"
+        }
+    }
+}
